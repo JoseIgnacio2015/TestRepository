@@ -1,0 +1,33 @@
+package project.coche.beans;
+
+public class Coche {
+
+	private String name;
+	private String modelo;
+	private int puertas;
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getModelo() {
+		return modelo;
+	}
+	public void setModelo(String modelo) {
+		this.modelo = modelo;
+	}
+	public int getPuertas() {
+		return puertas;
+	}
+	public void setPuertas(int puertas) {
+		this.puertas = puertas;
+	}
+	public String toString(){
+		
+		return "Info: " + this.name + " " + this.modelo +
+				" " + this.puertas;
+	}
+	
+}

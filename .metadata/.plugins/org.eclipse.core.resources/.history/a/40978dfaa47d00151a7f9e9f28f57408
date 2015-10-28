@@ -1,0 +1,5 @@
+package project.coche.beans;
+
+public class Coche {
+
+}
